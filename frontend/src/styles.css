@@ -1,0 +1,121 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+}
+
+button {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.low {
+  border-left: 6px solid #16a34a;
+}
+
+.medium {
+  border-left: 6px solid #f59e0b;
+}
+
+.high {
+  border-left: 6px solid #dc2626;
+}
+.card.risk {
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card.risk.low {
+  border-left: 6px solid #16a34a;
+}
+
+.card.risk.medium {
+  border-left: 6px solid #f59e0b;
+}
+
+.card.risk.high {
+  border-left: 6px solid #dc2626;
+}
+
+.card.error {
+  border-left: 6px solid #b91c1c;
+  background: #fee2e2;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.label {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.value {
+  font-weight: 600;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: white;
+  font-size: 13px;
+}
+
+.badge.low { background: #16a34a; }
+.badge.medium { background: #f59e0b; }
+.badge.high { background: #dc2626; }
+
+.explain {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.explain ul {
+  padding-left: 18px;
+}
